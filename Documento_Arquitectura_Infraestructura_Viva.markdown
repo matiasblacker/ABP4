@@ -74,6 +74,9 @@ La arquitectura utiliza servicios de AWS para crear un entorno en la nube escala
 ### 2.6 Alojamiento de Contenido Estático
 
 - **Servicio**: Amazon S3 y CloudFront.
+
+Link: https://d2mknrcenh3lzt.cloudfront.net/
+
 - **Justificación**:
   - S3 aloja sitios web estáticos con bajo costo y alta durabilidad.
   - CloudFront proporciona una CDN para distribución global de contenido con baja latencia, ofreciendo 50 GB de transferencia de datos gratuita en el nivel gratuito.
@@ -103,6 +106,15 @@ La arquitectura utiliza servicios de AWS para crear un entorno en la nube escala
 ![Proceso](proceso/3.png)
 
 3. **Almacenamiento**: Crear buckets S3 para almacenamiento estándar y de archivo con políticas de ciclo de vida.
+![Proceso](proceso/s3/1.png)
+![Proceso](proceso/s3/2.png)
+![Proceso](proceso/s3/3.png)
+
+Configurar el bucket como un sitio web estatico, prueba del sitio en modo público
+
+![Proceso](proceso/s3/4.png)
+
+
 4. **Redes**: Configurar una VPC con subredes públicas/privadas, ELB y Grupos de Seguridad.
 ![Proceso](proceso/4.png)
 5. **Monitoreo/Notificaciones**: Configurar métricas de CloudWatch, alarmas, notificaciones SNS y una cola SQS desde la configuración de la instancia EC2.
@@ -124,6 +136,13 @@ La arquitectura utiliza servicios de AWS para crear un entorno en la nube escala
 - **VPC/ELB**: Asegura redes seguras y escalables con entornos aislados.
 - **CloudWatch/SNS/SQS**: Proporciona monitoreo proactivo y comunicación confiable.
 - **S3/CloudFront**: Entrega contenido estático globalmente con alto rendimiento y seguridad.
+
+Uso de S3 y CloudFront, configuración del bucket a privado.
+
+![pruebas](pruebas/CloudFront/1.png.png)
+![pruebas](pruebas/CloudFront/2.png.png)
+![pruebas](pruebas/CloudFront/3.png.png)
+ 
 
 ## 8. Conclusión
 
