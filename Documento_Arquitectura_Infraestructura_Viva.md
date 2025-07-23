@@ -75,7 +75,7 @@ La arquitectura utiliza servicios de AWS para crear un entorno en la nube escala
 
 - **Servicio**: Amazon S3 y CloudFront.
 
-Link: https://d2mknrcenh3lzt.cloudfront.net/
+Link web estática subida: https://d2mknrcenh3lzt.cloudfront.net/
 
 - **Justificación**:
   - S3 aloja sitios web estáticos con bajo costo y alta durabilidad.
@@ -107,10 +107,11 @@ Link: https://d2mknrcenh3lzt.cloudfront.net/
 
 3. **Almacenamiento**: Crear buckets S3 para almacenamiento estándar y de archivo con políticas de ciclo de vida.
 ![S3](s3/1.png)
-![S3](s3/2.png)
-![S3](s3/3.png)
 
-Configurar el bucket como un sitio web estatico, prueba del sitio en modo público
+Configurar el bucket como un sitio web estatico, prueba del sitio en modo público, luego configurar cloudfront y bloquear el acceso publico al bucket
+![S3](s3/2.png)
+
+![S3](s3/3.png)
 
 ![S3](s3/4.png)
 
@@ -139,9 +140,9 @@ Configurar el bucket como un sitio web estatico, prueba del sitio en modo públi
 
 Uso de S3 y CloudFront, configuración del bucket a privado.
 
-![Cloudfront](cloudfront/1.png.png)
-![Cloudfront](cloudfront/2.png.png)
-![Cloudfront](cloudfront/3.png.png)
+![Cloud](cloud/1.png)
+![Cloud](cloud/2.png)
+![Cloud](cloud/3.png)
  
 
 ## 8. Conclusión
