@@ -106,13 +106,13 @@ Link: https://d2mknrcenh3lzt.cloudfront.net/
 ![Proceso](proceso/3.png)
 
 3. **Almacenamiento**: Crear buckets S3 para almacenamiento estándar y de archivo con políticas de ciclo de vida.
-![Proceso](proceso/s3/1.png)
-![Proceso](proceso/s3/2.png)
-![Proceso](proceso/s3/3.png)
+![S3](s3/1.png)
+![S3](s3/2.png)
+![S3](s3/3.png)
 
 Configurar el bucket como un sitio web estatico, prueba del sitio en modo público
 
-![Proceso](proceso/s3/4.png)
+![S3](s3/4.png)
 
 
 4. **Redes**: Configurar una VPC con subredes públicas/privadas, ELB y Grupos de Seguridad.
@@ -124,9 +124,9 @@ Configurar el bucket como un sitio web estatico, prueba del sitio en modo públi
 1. **SSH**: Conexión a la instancia via SSH desde terminal en sistema Ubuntu
 ![Proceso](proceso/5.png)
 
-![pruebas](pruebas/1.png)
+![Pruebas](pruebas/1.png)
 
-![pruebas](pruebas/2.png)
+![Pruebas](pruebas/2.png)
 
 ## 7. Justificación de Servicios
 
@@ -139,9 +139,9 @@ Configurar el bucket como un sitio web estatico, prueba del sitio en modo públi
 
 Uso de S3 y CloudFront, configuración del bucket a privado.
 
-![pruebas](pruebas/CloudFront/1.png.png)
-![pruebas](pruebas/CloudFront/2.png.png)
-![pruebas](pruebas/CloudFront/3.png.png)
+![Cloudfront](cloudfront/1.png.png)
+![Cloudfront](cloudfront/2.png.png)
+![Cloudfront](cloudfront/3.png.png)
  
 
 ## 8. Conclusión
